@@ -20,7 +20,8 @@ public class Main {
 		Runtime.Version version = Runtime.version();
 		
 		System.out.println("Current Java version: " + version);
-		System.out.println("------------------------------------------");		
+		System.out.println("----------------------------------------------------------------");
+		System.out.println("");
 	}
 	
 }
