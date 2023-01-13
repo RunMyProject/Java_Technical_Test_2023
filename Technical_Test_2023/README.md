@@ -1,6 +1,7 @@
 #Shell:
 
 -[x] mvn clean dependency:copy-dependencies package
+
 -[x] mvn compile exec:java -Dexec.mainClass="mypack.Main"
 
 #EXERCISE 1
