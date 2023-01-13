@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Technical_Test_2023</groupId>
+  <artifactId>Technical_Test_2023</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Technical_Test_2023</name>
+  <description>As software developer, you have to implement a method in order to produce the following daily report:
+/reports/ipaddr.csv: it must be a text/csv file containing the traffic data per IP Address.
+Each rows must have the following fields :
+IP Address
+Number of requests
+Percentage of the total amount of requests
+Total Bytes sent
+Percentage of the total amount of bytes
+The data set must be sorted by the number of requests (DESC). The source data for your report is stored in the file
+/logfiles/requests.log where each row (record) contains the following semicolon-separated values:
+TIMESTAMP: the moment when the event occurred.
+BYTES: the number of bytes sent to a client.
+STATUS: HTTP response status.
+REMOTE_ADDR: IP address of the client.
+Exclude from your report all the lines in the source file where the STATUS is different from “OK” ( RFC 2616).
+Note:
+Write the requested code in Java;
+Don’t use any frameworks but only the Java standard edition or at most, use light libraries;
+It's not required, but allowing to choose between two possible output modes on daily report file (for example:
+csv, json) will be taken into account;
+It's not required, but adding unit tests will be taken into account.
+</description>
+</project>
