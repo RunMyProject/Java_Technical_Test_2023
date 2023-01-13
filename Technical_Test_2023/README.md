@@ -1,6 +1,7 @@
-####Shell:
-#####mvn clean dependency:copy-dependencies package
-#####mvn compile exec:java -Dexec.mainClass="mypack.Main"
+#Shell:
+
+-[x] mvn clean dependency:copy-dependencies package
+-[x] mvn compile exec:java -Dexec.mainClass="mypack.Main"
 
 #EXERCISE 1
 As software developer, you have to implement a method in order to produce the following daily report:
