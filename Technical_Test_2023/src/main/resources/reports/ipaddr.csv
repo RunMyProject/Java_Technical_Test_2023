@@ -1,0 +1,6 @@
+IP Address;Number of requests;Percentage of the total amount of requests;Total Bytes sent;Percentage of the total amount of bytes;
+172.17.255.255;3;77;2048;10;
+172.17.255.255;3;77;2048;20;
+172.17.255.255;3;77;2048;30;
+172.17.255.255;3;77;2048;40;
+172.17.255.255;3;77;2048;50;
