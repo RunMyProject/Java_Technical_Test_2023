@@ -5,10 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Technical_Test_2023</name>
   <description>Technical_Test_2023 method in order to produce the following daily report:/reports/ipaddr.csv: it must be a text/csv file containing the traffic data per IP Address.</description>
-<properties>
-	<maven.compiler.release>11</maven.compiler.release>
-</properties> 
-	 <build>
+	<properties>
+		<maven.compiler.release>11</maven.compiler.release>
+	</properties> 
+	<build>
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -21,15 +21,13 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-    </build>    
-
-<dependencies>
-	<dependency>
-		<groupId>org.projectlombok</groupId>
-		<artifactId>lombok</artifactId>
-		<version>1.18.24</version>
-		<scope>provided</scope>
-	</dependency>
-</dependencies>
-
+    </build>
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
