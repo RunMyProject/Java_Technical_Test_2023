@@ -21,8 +21,16 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<testSourceDirectory>src/test/java</testSourceDirectory>        
     </build>
 	<dependencies>
+		<dependency>
+		    <groupId>org.junit.jupiter</groupId>
+		    <artifactId>junit-jupiter-api</artifactId>
+		    <version>5.9.0-M1</version>
+		    <scope>test</scope>
+		</dependency>   		
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
